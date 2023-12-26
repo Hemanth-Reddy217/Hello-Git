@@ -1,2 +1,0 @@
-# Hello-Git
-Git tutorial
