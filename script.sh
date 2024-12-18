@@ -21,3 +21,6 @@ for version in "${tomcat_versions[@]}"; do
     echo "Version $version added to $file."
   fi
 done
+
+echo "Using Artifactory password: ${ARTIFACTORY_PASSWORD}"
+echo "Using Git repository password: ${GIT_REPO_PASSWORD}"
